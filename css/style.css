@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  min-height: 100vh;
+}
+
+.app-header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+}
+
+.app-header h1 {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.app-header p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.tools-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  padding: 16px;
+}
+
+.tool-card {
+  background: #111827;
+  border-radius: 14px;
+  padding: 20px 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid #1f2933;
+}
+
+.tool-card i {
+  font-size: 26px;
+  margin-bottom: 8px;
+  color: #60a5fa;
+}
+
+.tool-card span {
+  display: block;
+  font-size: 14px;
+}
+
+.tool-card:hover {
+  transform: translateY(-4px);
+  border-color: #2563eb;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 12px;
+  font-size: 12px;
+  opacity: 0.6;
+}
